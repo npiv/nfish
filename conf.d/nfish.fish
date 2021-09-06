@@ -14,3 +14,5 @@ end
 complete --no-files --exclusive --command c --arguments "(pushd ~/code && __fish_complete_directories && popd)"
 
 set --global tide_right_prompt_items status cmd_duration context jobs virtual_env kubectl vi_mode time
+
+set -U fish_greeting "🐟"
