@@ -8,6 +8,8 @@ alias vi=vim
 alias gpom="git push origin master"
 alias standup_report="gl --author=Nick --since=Yesterday"
 
+alias k=kubectl
+
 function c
     cd ~/code/$argv
 end      
