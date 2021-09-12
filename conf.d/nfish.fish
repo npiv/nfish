@@ -18,5 +18,5 @@ set --global tide_right_prompt_items status cmd_duration context jobs virtual_en
 set -U fish_greeting "🐟"
 
 function install_tmux
-     mv ~/.config/fish/init.d/tmux.conf ~/.tmux.conf
+     cp ~/.config/fish/init.d/tmux.conf ~/.tmux.conf
 end
